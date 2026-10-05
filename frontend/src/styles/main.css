@@ -1,0 +1,29 @@
+:root {
+  /* 灯黄主色 #F9A825 —— 与已建各仓主色均不重复 */
+  --primary: #F9A825;
+  --primary-deep: #C77E0E;
+  --primary-soft: #FBC65B;
+  --primary-wash: #FFF8E1;
+  --ink: #3F3830;
+  --muted: #8A8172;
+  --line: #F0E4C4;
+  --bg: #FFFCF5;
+
+  --el-color-primary: #F9A825;
+  --el-color-primary-light-3: #FBB85C;
+  --el-color-primary-light-5: #FCC981;
+  --el-color-primary-light-7: #FDDBA9;
+  --el-color-primary-light-8: #FEE6C1;
+  --el-color-primary-light-9: #FFF3DC;
+  --el-color-primary-dark-2: #C77E0E;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+}
